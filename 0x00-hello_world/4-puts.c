@@ -1,4 +1,4 @@
-#include<stio.h>
+#include <stdio.h>
 /**
  * main - A C program that prints with put function
  *
