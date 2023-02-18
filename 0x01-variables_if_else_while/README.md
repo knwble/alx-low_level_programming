@@ -6,3 +6,4 @@
 6-print_numberz.c
 8-print_base16.c
 9-print_comb.c
+100-print_comb3.c
