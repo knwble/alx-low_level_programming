@@ -9,3 +9,4 @@
 8. A function that prints a square, followed by a new line
 9. Fizz-Buzz
 10. Triangles
+100. largest prime factor of the number 612852475143
