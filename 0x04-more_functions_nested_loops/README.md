@@ -8,3 +8,4 @@
 7. I feel like I am diagonally parked in a parallel universe
 8. A function that prints a square, followed by a new line
 9. Fizz-Buzz
+10. Triangles
