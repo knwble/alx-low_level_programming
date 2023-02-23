@@ -10,3 +10,4 @@
 9. Fizz-Buzz
 10. Triangles
 100. largest prime factor of the number 612852475143
+12. Numbers have life; they're not just symbols on paper
