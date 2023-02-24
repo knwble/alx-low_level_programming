@@ -1,3 +1,5 @@
+#0x00. C - Hello, World
+
 0. Preprocessor
 1-compiler
 2-assembler
