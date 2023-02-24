@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
- * main - A C program that prints with put function
+ * main - C program that prints exactly with proper grammar, but the outcome is a piece of art
  *
  * Return: 0 (Success)
 */
