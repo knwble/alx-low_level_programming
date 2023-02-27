@@ -2,17 +2,19 @@
 
 
 /**
-* _strlen - Entry point
-* @s: The variable to take input.
-* Return: Always 0 (Success)
+* rev_string - reverses a string
+* @s: string to reverse
+* Return: void
 */
-
 
 int _strlen(char *s)
 {
-	int i;
+	int u;
 
-	for (i = 0; s[i] != '\0'; i++)
-	s++;
-	return (i);
+	u = 0;
+	while (s[u] != '\0')
+	{
+		u++;
+	}
+	return (u);
 }
