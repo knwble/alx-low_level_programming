@@ -11,7 +11,7 @@ int main(void)
     char *str;
     int len;
 
-    str = "Lorem ipsum dolor sit amet, consectetur adipiscing elitborum.";
+    str = "Lorem ipsum dol ";
     len = _strlen(str);
     printf("%d\n", len);
     return (0);
