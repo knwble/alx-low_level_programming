@@ -2,9 +2,9 @@
 
 
 /**
-* rev_string - reverses a string
-* @s: string to reverse
-* Return: void
+* _strlen -length of a string
+* @s: pointer to a string, parameter input
+* Return: length of string
 */
 
 int _strlen(char *s)
