@@ -9,29 +9,25 @@
 
 char *cap_string(char *s)
 {
-	int i = 0;
+	int count = 0, i;
+	int separators[] = {32, 9, 10, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
 
-
-	while (s[i] != '\0')
+	if (*(s + count) >= 97 && *(s + count) <= 122)
+		*(s + count) = *(s + count) - 32;
+	count++;
+	while (*(s + count) != '\0')
 	{
-
-		if (s[i] >= 97 && s[i] <= 122)
+		for (i = 0; i < 13; i++)
 		{
-			if (i == 0)
+			if (*(s + count) == separators[i])
 			{
-				s[i] -= 32;
-			}
-
-			if (s[i - 1] == 32 || s[i - 1] == 9 || s[i - 1] == 10 ||
-					s[i - 1] == 44 || s[i - 1] == 59 || s[i - 1] == 46 ||
-					s[i - 1] == 33 || s[i - 1] == 63 || s[i - 1] == 34 ||
-					s[i - 1] == 40 || s[i - 1] == 41 || s[i - 1] == 123 ||
-					s[i - 1] == 124)
-			{
-				s[i] -= 32;
+				if ((*(s + (count + 1)) >= 97) && (*(s + (count + 1)) <= 122))
+					*(s + (count + 1)) = *(s + (count + 1)) - 32;
+				break;
 			}
 		}
-		i++;
+		count++;
 	}
 	return (s);
 }
+
