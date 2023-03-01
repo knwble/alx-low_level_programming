@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _strcat - function that concatenates two stringst
+ * _strncat - function that concatenates two stringst
  * @dest: destination variable
  * @src: source variable
+ * @n: most number of bytes from @src
  * Return: Always 0 (success)
  */
 
