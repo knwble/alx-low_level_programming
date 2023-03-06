@@ -11,3 +11,4 @@
 - 0x04 : More Functions and nested loops
 - 0x05 : Pointers, arrays and strings
 - 0x06 : Pointers, arrays and strings
+- 0x07 : Pointers, arrays and strings
