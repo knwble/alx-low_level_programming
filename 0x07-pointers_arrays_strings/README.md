@@ -1,4 +1,4 @@
-## 0x07. C - Even more pointers, arrays and strings.
+## 0x07. C - Even more pointers, arrays and strings
 ---
 - 0-memset.c
 - 1-memcpy.c
@@ -9,4 +9,4 @@
 - 7-print_chessboard.c
 - 8-print_diagsums.c
 - 100-set_string.c
-- 101-crackme_password.c
+- 101-crackme_password
