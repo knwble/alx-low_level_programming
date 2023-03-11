@@ -13,3 +13,5 @@
 - 0x06 : Pointers, arrays and strings
 - 0x07 : Pointers, arrays and strings
 - 0x08 : C - Recursion
+- 0x09 : Static_libraries
+- 0x0A : C - argc, argv
