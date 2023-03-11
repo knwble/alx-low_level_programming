@@ -33,6 +33,8 @@ int main(int argc, char *argv[])
 				cents -= 5;
 			else if ((cents - 2) >= 0)
 				cents -= 2;
+			else if ((cents - 1) >= 0)
+				cents -= 1;
 
 			cents--;
 			coins++;
