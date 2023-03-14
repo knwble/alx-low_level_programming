@@ -3,17 +3,13 @@
 #include <stdio.h>
 
 /**
- * word_len - Locates the index marking the end of the
- *            first word contained within a string.
+ * strtow - splits a string into words
  * @str: The string to be searched.
  * Return: The index marking the end of the initial word pointed to by str.
  */
+
 char **strtow(char *str)
 {
 
-	
-	printf("ALX\n");
-	printf("School\n");
-	printf("#cisfun\n");
 
 }
