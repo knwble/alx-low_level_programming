@@ -14,10 +14,10 @@ size_t free_listint_safe(listint_t **h)
 	listint_t *current_node, *next_node;
 
 	if (!h || !(*h))
-		return 0;
+		return (0);
 
 	current_node = *h;
-	
+
 	while (current_node != NULL)
 	{
 		node_diff = current_node - current_node->next;
