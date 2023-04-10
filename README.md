@@ -24,3 +24,5 @@
 - 0x11 : C - Printf
 - 0x12 : C - Singly linked lists
 - 0x13 : C - More_singly_linked_lists
+- 0x14 : C - Bit_manipulation
+- 0x15 : C - File_io
