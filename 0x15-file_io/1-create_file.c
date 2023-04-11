@@ -19,10 +19,12 @@ int create_file(const char *filename, char *text_content)
 	if (file == -1)
 		return (-1);
 
-	if (text_content != NULL)
+	if (text_content)
 	{
-		for (index = 0; text_content[index]; index++)
-			file_write = write(file, text_content, index);
+		while (text_content[index] != '\0')
+			index++;
+		file_write = write(file, text_content, index);
+
 		if (file_write == -1)
 			return (-1);
 	}
