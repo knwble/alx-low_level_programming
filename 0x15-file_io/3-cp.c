@@ -48,5 +48,5 @@ int main(int argc, char *argv[])
 	close(file1);
 	close(file2);
 
-	return (0);
+	return (1);
 }
