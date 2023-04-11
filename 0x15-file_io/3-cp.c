@@ -2,8 +2,8 @@
 
 /**
  * main - main function
- * @argc:  number of arguments
- * @argv:  content to write
+ * @argc: number of arguments
+ * @argv: pointer of content to write
  * Return: 0
  */
 
