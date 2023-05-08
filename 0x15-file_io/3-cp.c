@@ -2,8 +2,7 @@
 #define BUFSIZE 1024
 
 /**
- * error_check - prints error messages 
- *
+ * error_check - prints error messages
  * @error: exit number or file descriptor
  * @str: files
  * @fd: file descriptor
